@@ -38,7 +38,8 @@ And this is where my Python Script comes in
 
 The aim of this script is to provide a safety net so that you won't miss a Shiny Pokemon.
 
-It essentially measures the time when the 
+It essentially measures the time when the text box saying that you have met a wild pokemon disappears to when the text box saying that you have sent out your own pokemon to battle.
+
 
 
 
