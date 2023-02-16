@@ -13,4 +13,4 @@ Pokemon generally come in a particular colour, such as Pikachu's being yellow an
 
 
 
-[Alt text]([https://assets.digitalocean.com/articles/alligator/boo.svg](https://archives.bulbagarden.net/media/upload/thumb/5/56/Spr_7p_006.png/400px-Spr_7p_006.png) "a title")
+[Alt text]([[https://assets.digitalocean.com/articles/alligator/boo.svg])
