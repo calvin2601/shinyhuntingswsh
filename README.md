@@ -10,7 +10,7 @@ As you may already know, Pokemon is about collecting a variety of creatures and 
 Pokemon generally come in a particular colour, such as Pikachu's being yellow and only yellow...for the most part, but there is a very small chance that a Pokemon can be a different colour as so:
 
 
-<img src="https://archives.bulbagarden.net/media/upload/thumb/5/56/Spr_7p_006.png/600px-Spr_7p_006.png" alt="Shiny Charizard" width ="400" height=auto title="Shiny Charizard"> 
+<img src="https://archives.bulbagarden.net/media/upload/thumb/5/56/Spr_7p_006.png/600px-Spr_7p_006.png" alt="Shiny Charizard" width ="400" height=auto title="Normal Charizard"> 
 Normal Charizard (orange)
 
 
