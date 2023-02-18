@@ -7,7 +7,7 @@ As you may already know, Pokemon is about collecting a variety of creatures and 
 
 ### What is a shiny Pokemon?
 
-Pokemon generally come in a particular colour, such as Pikachu's being yellow and only yellow...for the most part, but there is a very small chance that a Pokemon can be a different colour as so:
+Pokemon generally come in a particular colour, such as Pikachu's being yellow and only yellow...for the most part, but there is a very small chance that a Pokemon can be a different colour like so:
 
 
 <img src="https://archives.bulbagarden.net/media/upload/thumb/5/56/Spr_7p_006.png/600px-Spr_7p_006.png" alt="Shiny Charizard" width ="400" height=auto title="Normal Charizard"> 
@@ -45,7 +45,13 @@ The aim of this script is to provide a safety net so that you won't miss a Shiny
 
 As shown in the above gif, the added sparkles (the shiny animation) on the right hand side means that the time between the two text boxes is substantially longer. This Python script will monitor this transition time and if it is longer than usual, it will alert you via sound that a Shiny Pokemon has appeared as well as printing a message in the console.
 
-## How my Python Script Works in More Detail
+## How my Python Script Works in More Detail (taking [Random Encounters](https://github.com/calvin2601/shinyhuntingswsh/blob/b25bd6b108e245bafbc43bd98c877117b229a337/SwSh/RandomEncounters.py) as the example)
+
+Random encounters are when you encounter pokemon in the wild as normal.
+
+First of all the script needs to be set up so that the feed from the Nintendo Switch console can be displayed on the pc (done in the physical world with a capture card). [Open-cv (an open-source computer vision library)](https://docs.opencv.org/4.x/da/df6/tutorial_py_table_of_contents_setup.html) is used for this purpose.
+
+In order to track the time we need to have an identifying marker to trigger the start and the end of the time. As mentioned before, it is revolved around the appearance of the text box that states "You encountered a wild Pokemon!" and the box that says "You sent out Pokemon" or words to that effect. For this script I chose a particular region of interest (ROI) for the code to monitor as shown below:
 
 
 
